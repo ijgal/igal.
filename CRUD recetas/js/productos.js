@@ -3,7 +3,7 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        url:"http://ig23033.pythonanywhere.com/recetas",
+        url:"https://ig23033.pythonanywhere.com/recetas",
         productos:[],
         error:false,
         cargando:true
