@@ -28,7 +28,7 @@ const { createApp } = Vue
                 })
         },
         eliminar(producto) {
-            const url = 'http://ig23033.pythonanywhere.com/recetas' + producto;
+            const url = 'http://ig23033.pythonanywhere.com/recetas/' + producto;
             var options = {
                 method: 'DELETE',
             }
@@ -41,6 +41,11 @@ const { createApp } = Vue
 
 
     },
+    
+
+
+
+  }).mount('#app')
     
 
 
